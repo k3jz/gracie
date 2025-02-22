@@ -433,14 +433,6 @@ function playHitsound()
 end
 
 GunMods:AddToggle('hstoggle', {
-    Text = 'stretch res',
-    Default = false,
-    Callback = function(state)
-        getgenv().hitsoundEnabled = state
-    end
-})
-
-GunMods:AddToggle('hstoggle', {
     Text = 'Hitsounds',
     Default = false,
     Callback = function(state)

@@ -19,6 +19,8 @@
 
     -- You do not have to set your tabs & groups up this way, just a prefrence.
 
+local KillAura = Tabs.Main:AddRightGroupbox('Combat')
+
     Tabs = {
     Main = Window:AddTab('Main'),
     Visuals = Window:AddTab('Visuals'),
